@@ -1,0 +1,216 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.logo{
+    height: 50px;
+    width: 113px;
+    background-image: url('./amazon_logo.png');
+    background-size: cover;
+}
+
+.border:hover{
+    border: 1.5px white solid ;
+}
+
+.navBox2{
+    height: 50px;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.locationLogo{
+    margin-top: 23px;
+}
+
+.navBox22{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5px;
+
+}
+
+.searchDiv{
+    width: 900px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    text-align: center;
+    height: 40px;
+    width: 45px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(228, 230, 232);
+    border-right: 2px solid rgba(0,0,0,0.5);
+    font-size: 1rem;
+}
+
+.input{
+    height: 40px;
+    width: 100%;
+}
+.input::-webkit-input-placeholder { padding: 10px;
+   font-size: 1rem;}
+
+.nav-button{
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 50px;
+    background-color: rgb(234, 196, 99);
+}
+
+.box3-4{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.cart i{
+    font-size: 35px;
+}
+
+.cart-root{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner2{
+    background-color: #222f3d;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.banner21{
+    width: 87.5%;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.banner22{
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.banner2c{
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    align-items: center;
+}
+
+.hero-image{
+    height: 350px;
+    width: 100%;
+    background-image: url('./hero_image.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-image-msg{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.hero-image-msg a{
+    color: rgb(87, 144, 131);
+}
+
+.product{
+
+    background-color: #e2e7e6;
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 400px;
+    width: 23%;
+    background-color: whitesmoke;
+    margin-top: 15px;
+    /* border: 2px solid blue; */
+}
+.product-name{
+    height: 30px;
+    display: flex;
+    align-items: center ;
+    padding-left: 10px;
+    /* border: 2px solid black; */
+}
+
+.box{
+   padding: 20px;
+   /* border: 2px solid red; */
+}
+
+.box1-photo{
+    height: 290px;
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    /* border: 2px solid black; */
+}
+
+.shop-now{
+   color:rgb(70, 70, 168);
+   height: 30px;
+   /* border: 2px solid black; */
+}
+
+.shop-now:hover{
+    color: brown;
+    text-decoration: underline;
+}
+
+.footer{
+    background-color: #222f3d;
+    color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-content{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
